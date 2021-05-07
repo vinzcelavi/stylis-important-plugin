@@ -1,0 +1,33 @@
+{
+  "name": "stylis-important-plugin",
+  "version": "0.0.4",
+  "description": "Adds !important to your react components with styled-components",
+  "main": "lib/build.js",
+  "scripts": {
+    "build": "babel src/index.js -o lib/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinzcelavi/stylis-important-plugin.git"
+  },
+  "keywords": [
+    "important",
+    "stylis",
+    "css"
+  ],
+  "author": "vinzcelavi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinzcelavi/stylis-important-plugin/issues"
+  },
+  "homepage": "https://github.com/vinzcelavi/stylis-important-plugin#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "jest": "^24.9.0"
+  },
+  "peerDependencies": {
+    "stylis": "^3.0.0"
+  }
+}
