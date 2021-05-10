@@ -1,6 +1,6 @@
 {
   "name": "stylis-important-plugin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Adds !important to your react components with styled-components",
   "main": "lib/build.js",
   "scripts": {
